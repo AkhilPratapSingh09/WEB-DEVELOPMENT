@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More On cSS selectors</title>
+    <style>
+        .box:first-child{
+            background-color: aqua;
+        }
+        .boxes::before{
+            content: "Ram Ram Bhai Sareya Ne";
+        }
+        .boxes::after{
+            content: "Ram Ram Bhai Sareya Ne";
+        }
+        ::selection{
+            background-color: black;
+            color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">Hey I am A Box</div>
+        <div class="box">Hey I am A Box</div>
+        <div class="box">Hey I am A Box</div>
+    </div>
+</body>
+</html>

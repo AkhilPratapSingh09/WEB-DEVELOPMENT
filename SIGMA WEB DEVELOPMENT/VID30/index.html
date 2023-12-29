@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Variables</title>
+    <style>
+        /* variable used for change color & other things */
+        :root{
+            --color:brown;
+            --seccolor: grey;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            background-color: var(--color);
+        }
+        ul{
+            display: flex;
+        }
+        ul li{
+            list-style: none;
+            margin: 4px;
+            padding: 4px;
+        }
+        .container{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div >
+    <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque enim pariatur provident veritatis omnis fugiat reprehenderit sit maiores delectus optio aut labore, amet expedita debitis temporibus distinctio soluta ut odio dolore? Asperiores, dolores! Dolores provident voluptate incidunt praesentium magni! Neque quam deserunt iste error deleniti!</div>
+</body>
+</html>

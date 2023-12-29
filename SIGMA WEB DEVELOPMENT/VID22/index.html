@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing Units</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        html{
+            /* root font size */
+            font-size: 12px;
+        }
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            margin: auto;
+            background-color: antiquewhite;
+        }
+        .container{
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            height: 80vmin;
+            margin: 23px auto;
+            background-color: antiquewhite;
+        }
+        .container p{
+            font-size: 2em;
+            /* em=em*2 */
+            /* rem=root*2 */
+        }
+        .mycont{
+            background-color:aquamarine;
+            color: red;
+            font-size: 22px;
+            width: 100vmin;
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            margin: 23px auto;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        This is a Box
+
+    </div>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, modi quis! Vel necessitatibus inventore enim excepturi recusandae dolores quibusdam placeat, velit laborum natus, iste ex porro amet maiores numquam modi maxime odio eaque nemo libero! Et reprehenderit quam dolor alias esse est ea non necessitatibus sunt, nulla aspernatur molestiae iste vel distinctio atque dolorum a unde.
+        </p>
+    </div>
+    <div class="mycont">
+        I am another container like previos one.
+    </div>
+</body>
+</html>

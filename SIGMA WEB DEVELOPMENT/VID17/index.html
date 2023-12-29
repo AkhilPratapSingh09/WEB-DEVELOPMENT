@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element selector */
+        div{
+            background-color: fuchsia;
+        }
+        /* class selector */
+        .red{
+            background-color: red;
+        }
+
+        /* id selector */
+        #green{
+            background-color: blue;
+        }
+        /* universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* psuedo selector */
+        a:visited{
+            color:black
+        }
+        a:hover{
+            color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="red">
+        I am a div
+    </div>
+    <div id="green">
+        i am another div
+    </div>
+    <div>
+        i am div for element selector
+    </div>
+
+    <a href="http://www.instagram.com">Go to Insta</a>
+</body>
+</html>
